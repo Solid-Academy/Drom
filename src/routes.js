@@ -1,9 +1,5 @@
 import { Navigate } from "react-router-dom";
-import { useAuth } from "./hooks/use-auth";
-import { getAuth } from "firebase/auth"
-const auth = getAuth(false);
-
-
+import { useAuth } from "../src/hooks/use-auth";
 
 export const PrivateRoute = ({ Component }) => {
   const { isAuth } = useAuth();

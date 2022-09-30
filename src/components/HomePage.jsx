@@ -1,10 +1,12 @@
+import React from "react";
 
 function HomePage() {
   return (
-    <h1>
-      HEllo
-    </h1>
-  )
+    <>
+      <h1>adada</h1>
+      <div>HomePage</div>
+    </>
+  );
 }
 
-export default HomePage
+export default HomePage;

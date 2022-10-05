@@ -1,0 +1,9 @@
+.container {
+  height: 1vh;
+  width: 100%;
+  margin: 0 auto;
+}
+.container:hover {
+  width: 98%;
+  transition: width 1s;
+}
